@@ -4,7 +4,7 @@ const celsiusTuloste=document.querySelector('#celsius');
 const muunnaButton=document.querySelector('button');
 
 function fahrenheitCelsiukseksi(fahrenheit){
-    let celsius=fahrenheit;
+    let celsius=(fahrenheit-32)/1.8;
     return celsius;
 }
 function muunna(){
